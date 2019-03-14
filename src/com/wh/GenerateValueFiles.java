@@ -103,8 +103,8 @@ public class GenerateValueFiles {
 
 	public static void main(String[] args) {
 		// 以此为标准，其他的分辨率可以计算出来
-		int baseW = 720;
-		int baseH = 1280;
+		int baseW = 1080;
+		int baseH = 1920;
 		new GenerateValueFiles(baseW, baseH).generate();
 	}
 }
